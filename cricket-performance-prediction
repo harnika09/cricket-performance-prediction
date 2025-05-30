@@ -1,0 +1,25 @@
+# Cricket Performance Prediction
+
+This project uses statistical modeling in R to predict a cricket player’s total career runs based on historical performance metrics such as matches played, highest score, centuries, and batting average.
+
+We applied multiple regression techniques including:
+- Linear Regression
+- Interaction Terms
+- Polynomial Regression (degrees 2 to 15)
+- Regularization with Ridge and Lasso
+
+Models were evaluated using RMSE, MAE, and R² on test data. Lasso Regression and Interaction Model 3 provided the best balance of accuracy and interpretability.
+
+## Files
+- `Harnika_Pendyala_Cricket_Run_Prediction_Report.docx`: Final report
+- `Harnika_Pendyala_Cricket_Run_Prediction_Code.R`: Full R code
+- `README.md`: Project summary
+
+## Tools Used
+- R, caret, glmnet, ggplot2, Metrics
+- Data visualization and model diagnostics
+
+---
+
+*Author: Harnika Pendyala*  
+Advanced Statistics Project – University of Memphis  
